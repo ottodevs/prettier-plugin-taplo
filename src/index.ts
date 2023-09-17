@@ -29,7 +29,7 @@ const parse: Parser["parse"] = (code): AST => ({
 });
 
 const print: Printer<AST>["print"] = (path) => {
-  const { code } = path.getValue();
+  const { code } = path.node;
   const formatted = format(removeBeginningTrailingNewline(code));
 
   return group([formatted]);
