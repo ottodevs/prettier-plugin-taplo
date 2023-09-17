@@ -34,7 +34,6 @@ jobs:
           node-version: 16
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
-      - run: pnpm publish
 
   publish-gpr:
     needs: build
