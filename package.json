@@ -52,6 +52,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepublishOnly": "nr build",
+    "postinstall": "pkgroll",
     "release": "bumpp --commit --push --tag",
     "start": "tsx src/index.ts",
     "test": "vitest",
