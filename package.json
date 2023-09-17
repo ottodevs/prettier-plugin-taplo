@@ -1,6 +1,6 @@
 {
   "name": "@ottodevs/prettier-plugin-taplo",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "packageManager": "pnpm@8.7.5",
   "author": "Otto G <5030059+ottodevs@users.noreply.github.com> (https://github.com/ottodevs)",
   "description": "Use taplo to format your TOML files with prettier.",
@@ -21,15 +21,6 @@
   },
   "license": "MIT",
   "sideEffects": false,
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "require": "./dist/index.cjs"
-    },
-    "./worker": {
-      "require": "./dist/worker.cjs"
-    }
-  },
   "main": "./dist/index.cjs",
   "types": "./dist/index.d.ts",
   "typesVersions": {
